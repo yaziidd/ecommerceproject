@@ -1,0 +1,17 @@
+.image-container{
+    position: relative;
+    overflow: hidden;
+}
+
+.cart-btn{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(100%, 100%);
+    transition: all 1s linear;
+}
+
+.image-container:hover .cart-btn{
+    transform: translate(0, 0);
+    transition: all 1s linear;
+}
